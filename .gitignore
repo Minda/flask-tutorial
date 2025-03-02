@@ -1,0 +1,35 @@
+# Python virtual environment
+venv/
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask file-upload directory
+app/static/uploads/
+
+# Instance folder
+instance/
+
+# Database files
+*.db
+*.sqlite
+
+# Environment variables
+.env
+.flaskenv
+
+# Logs
+logs/
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
